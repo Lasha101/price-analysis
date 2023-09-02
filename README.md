@@ -50,7 +50,7 @@ Input a Date:
 After running the script, the program will prompt you to enter a date. Please remember that the program provides simulated prices for the past 12 months. If you want to obtain the price from 3 months ago, enter 3. For a price from 5 and a half months ago, enter 5.5. The valid range for input is from 0 to 12 months. However, if you input a date outside of this range, you will still receive a price, but it will be entirely simulated. 
 Observe Results:
 
-The program will provide you with the following information:
+The program will provide you with the following information in your terminal:
 
 - Estimated Bitcoin price at the specified date.
 - Derivative of the curve function at that point, indicating the rate of change of Bitcoin prices.
