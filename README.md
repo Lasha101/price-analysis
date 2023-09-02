@@ -66,4 +66,3 @@ pytest test_project.py
 ```
 This will execute the test cases defined for the program functions and provide you with information about their correctness.
 
-# price-analysis
