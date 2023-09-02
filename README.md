@@ -16,7 +16,7 @@ The primary goal of this project is to analyze Bitcoin price data and gain insig
 
 - **Tangent Slope Analysis:** The program further interprets the derivative by calculating the inclination slope of the tangent line at the chosen time point. This slope offers an understanding of the degree of inclination of the curve at that specific moment.
 - 
-## Usage ATTANTION to the python commands! For different OS they may be different!
+## Usage       !ATTANTION to the python commands! For different OS they may be different!
 
 To utilize the Bitcoin Price Analysis program, ensure you have the following Python libraries/modules installed:
 
