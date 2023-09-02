@@ -71,9 +71,6 @@ def get_bitcoin_prices():
             prices.append(price)
     except requests.RequestException:
         sys.exit()
-
-    print()
-    print(prices)
     return prices
 
 # Convert the input date into a float value
@@ -100,9 +97,7 @@ def make_equation(coefs):
 # Calculate the derivative of the equation at the given value and analyze the result
 def calculate_derivative(equation, value):
     derivative = np.polyder(equation)
-    print("DERIVATIVE -----", str(derivative))
     derivative_at_x = np.polyval(derivative, value)
-    print("VALUE -----: ", str(value))
     derivative_at_x = round(derivative_at_x)
     print(f"Derivative at x={value}: {derivative_at_x}")
 
